@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "student",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "last_name": {
+      "type": "string",
+      "default": "trithay"
+    },
+    "first_name": {
+      "type": "string",
+      "default": "Mong"
+    },
+    "full_name": {
+      "type": "string",
+      "default": "Mong trithay"
+    }
+  }
+}
